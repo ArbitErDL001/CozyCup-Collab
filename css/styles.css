@@ -6,7 +6,7 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f2e0;
+     background-color: #f8f2e0;
     color: #4c3c32;
 }
 
@@ -48,7 +48,7 @@ nav a:hover {
     padding: 150px 0;
     background-image: url('hero-bg.jpg');
     background-size: cover;
-    color: white;
+    color: rgb(100, 83, 46);
 }
 
 .hero h1 {
@@ -82,6 +82,42 @@ nav a:hover {
 .menu h2 {
     font-size: 30px;
     margin-bottom: 20px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+    align-items: start;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.menu-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    margin: 10px 0 5px 0;
+    font-size: 20px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #4c3c32;
 }
 
 .about {
