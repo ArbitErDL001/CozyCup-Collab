@@ -5,6 +5,8 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
+    background-image: url(/img/wood.png);
+    background-size:auto ;
     font-family: Arial, sans-serif;
      background-color: #f8f2e0;
     color: #4c3c32;
@@ -48,7 +50,7 @@ nav a:hover {
     padding: 150px 0;
     background-image: url('hero-bg.jpg');
     background-size: cover;
-    color: rgb(100, 83, 46);
+    color:antiquewhite ;
 }
 
 .hero h1 {
@@ -82,6 +84,7 @@ nav a:hover {
 .menu h2 {
     font-size: 30px;
     margin-bottom: 20px;
+    color: antiquewhite;
 }
 
 .menu-grid {
